@@ -2,5 +2,3 @@
 
 ### Live Site
 [UTD Transfer Guide](https://wearignoranceisbliss.github.io "UTD Transfer Guide")
-
-### test
