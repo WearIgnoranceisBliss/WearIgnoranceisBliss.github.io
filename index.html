@@ -21,534 +21,804 @@
 			th{
 				text-align: left;
 			}
+			
+			body{
+				width: 100%;
+				
+				font-family: Helvetica, sans-serif;
+				background-color: #f2f0e9;
+			}
+			
+			#main{
+				width: 80%;
+				margin: auto;
+				
+				padding: 15px;
+								
+				background-color: #fcfcfc;
+				
+				border-radius: 10px;
+				box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+			}
+			
+			#title{
+				text-align: center;
+			}
+			
+			#contents-section{
+				border-top: 1px dashed black;
+				border-bottom: 1px dashed black;
+				
+				padding-bottom: 25px;
+			}
+			
+			#contents{
+				padding-top: 20px;
+			
+				width:25%;
+				margin: auto;
+				
+				text-align: center;
+			}
+			
+			#contents-list{
+				width:25%;
+				margin: auto;
+			}
+			
+			.list-item{
+				margin-top: 10px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				border: 1px solid black;
+				
+				text-align: center;
+				border-radius: 5px;
+				
+				cursor: pointer;
+			}
+			
+			.list-item:hover{
+				background-color: #f2f0e9;
+				box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+				border-radius: 0px;
+			}
+			
+			.list-item{
+				text-decoration: none;
+				color: black;
+			}		
+
+			.faq-answer{
+				padding-left: 10px;
+				margin-left: 15px;
+				border-left: 1px solid black;
+			}
+			
+			.faq-subanswer{
+				padding-left: 10px;
+				margin-left: 40px;
+				border-left: 1px solid black;
+			}
+			
+			#footer{
+				text-align: center;
+				padding-top: 30px;
+			}
+			
 </style>
 		
 </head>
 
 <body>
-	<h1>Transfer Guide | Going from Collin College to UTD</h1>
-	<h2>What is This?</h2>
-		<p>This is a collection of notes and gathered information from my time as a transfer student going from Collin College to UTD. This guide was written because nothing like it exists at the current time, and had this existed when I transferred it would have made my transition much easier. This guide is specific to someone looking to get a bachelor's degree in computer science however, other engineering majors will share many of the same questions that you can find answers to in this guide.
-		</p>
-	
-	<h2>Who I Am</h2>
-		<p>I am, at the time of writing this, a computer science major at UTD in my junior year. I started my college journey in 2016 at Collin College. I am a non-traditional student, and spent 5 years after highschool as an aircraft mechanic before deciding to go to college.
-		</p>
-	
-	<h2>Disclaimer</h2>
-		<p>So first a disclaimer: I am going to give advice here that is to the best of my knowledge correct at the date of this guide being written (Spring 2019). However, I'm also just some random dude on the internet so you should absolutely verify anything I say. "Trust but verify" should be your new life motto as you read not only this, but also talk to any advisors or read any other guides as well.
-		</p>
+	<div id="main">
+		<div id="title">
+			<h1>Going from Collin College to UTD</h1>
+			<h1><i>Transfer Guide</i></h1>
+		</div>
 		
-	<h2>Am I Happy With the Education I Received at Collin?</h2> 
-		<p>Overall I have no major complaints with the education I received from Collin, and highly recommend them to anyone looking at an alternative to 4 years at a university. The teachers were excellent and the class size was small and responsive compared to UTD. I have not had any problems with the Math classes I am currently taking, I was able to jump right in to Discrete Math II and Probability and Stats with no surprises. 
-		</p>
-		
-		<p>My only minor complaint would be that I found Collin's Computer Science II(COSC2436) to be lacking some of the things that I was supposed to already know going into UTD's CS3345 Data Structures class. Most everyone who took this class at UTD seems to have already been introduced to BST's, Hash Tables, and have more proficiency with implementing other Data Structures quickly.
-		</p>
-		
-		<p>Overall, I'm happy with my decision to go the community college route as I have zero debt and was able to get some of the transfer scholarships. The only thing I was lacking was some Data Structures knowledge but I was able to pick that up over a few weekends with the help of YouTube and online articles. Other than that I was able to jump right in to my classes at UTD with no problems and no other missing foundational knowledge. 
-		</p>
-
-  <h2>General Tips</h2>
-		<p>1: If at all possible transfer in during a Fall semester at UTD. This seems to be the usual timeline for not only freshmen starting but transfer students coming in as well. If for nothing else you will be able to apply for more external transfer scholarships this way, for example the "Jack Kent Cooke"  <a href="https://www.jkcf.org/our-scholarships/undergraduate-transfer-scholarship/">transfer scholarship.</a> A lot of these external scholarships are based on you transferring in a Fall semester.
-		</p>
-		
-		<p>2: If you're a slightly older non-traditional student, as I was, here is some financial aid advice. If that's not the case you can skip this point. Make sure you fill out the FAFSA religiously every year, even if you don't think you qualify for anything. The government loves throwing money at non-traditional students over the age of 25 in the form of Pell Grants. Also apply for any of the Collin College foundation scholarships as they are fairly easy to obtain.
-		</p>
-		
-		<p>3: FILL OUT THE COMET CONNECTION PAPER. This should be mandatory for any student that is transferring from Collin to UTD. It provides a number of benefits, but the primary benefit is it locks in your tuition. For example, I signed the comet connection in early 2017, because of this when I start classes at UTD in Spring 2019 I will be paying tuition rates from Fall of 2016. If we do the math on that, I will be saving about $2700 over four semester at UTD. The best part about this whole thing is you only have to print out the form, take it to a Collin advisor and have them initial it, and mail it in. So for the cost of a stamp and a half-hour of your time you can save a significant amount of money. Here's the website where you can print the form. <a href="https://www.utdallas.edu/enroll/transfer/comet-connection/">Link</a>
-		</p>
-		
-		<p>4: Collin has guaranteed transfer scholarships based on your grades at Collin. By maintaining above a 3.75 GPA at Collin you'll automatically get $1500 per full-time semester at UTD. So by working hard now you can net about $6000 over the course of four semesters at UTD. <a href="https://www.utdallas.edu/enroll/transfer/scholarships/">Link</a>
-		</p>
-		
-		<p>5: Join Phi Theta Kappa(PTK). As long as you have been maintaining above a 3.5 GPA you will get emails from PTK asking you to join their organization. It costs about $120. This is another guaranteed scholarship at UTD. By maintaining above a 3.5 GPA you'll automatically get $500 per semester at UTD. So for a $120 investment you'll earn $2000 over four semesters at UTD. <a href="https://www.utdallas.edu/enroll/transfer/scholarships/">Link</a>
-		</p>
-		
-		<p>6: Trust but verify anything you Collin advisors tell you about the classes you need to take and what will/won't transfer to UTD. Collin advisors are a great resource and everyone of the ones I’ve dealt with has been great. But keep in mind they work for Collin not UTD. You need to touch base with UTD at least once a year, or even better once a semester while at Collin to make sure you only take classes that will transfer and are following the UTD requirements for your degree program. Here's the website where you can book an advising appointment or get the email of your advisor, just click on the Genbook button in the following link. <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/undergrad-advising/">Link</a> Note: You CAN book an appointment without being a current UTD student.
-		</p>
-		
-		<p>7: UTD advisors don't know anything. This may be specific to my computer science major as that department is bursting at the seems, but confirm anything your UTD advisor tells you. Have email proof or record the audio of when you talk to them in person. I have in the past three years never seen the same advisor twice and have been told multiple different answers to question I have as a transfer student. Whether our not it would actually help you I don't know, but at least being able to pull out old emails when they tell something different next time has worked for me.
-		</p>
-		
-	<h2>I Want to Take as Many Classes as Possible at Collin to Save Money. What Do I Need To Know?</h2>
-		<p>Excellent choice, this will save you the most amount of money. You will also not be getting any less of an education. Everyone has to take the same core classes and by taking them at Collin you get one-on-one interaction with the professor, a class size limited to about 30 students, and a significantly cheaper cost.
-		</p>
-		
-		<p>All in all you can take 64 fully transferable credit hours at Collin, this will leave you just 60 junior and senior level classes to complete at UTD. The following table contains the list of classes I took at Collin that transferred in with no problem as well as some alternatives.
-		</p>
-		
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Class</th>
-					<th>Name</th> 
-					<th>Professor Taken</th> 
-					<th>Would I Recommend the Professor</th> 
-					<th>Notes/Alternatives</th>
-					<th>Requirement Filled</th>
-				</tr>
-				<tr>
-					<td>ARTS1301</td>
-					<td>Art Appreciation</td>
-					<td>Chris Tinnen</td>
-					<td>Yes</td>
-					<td>Alt: MUSI1306</td>
-					<td>Core: Arts</td>
-				</tr>
-				<tr>
-					<td>BIOL1406</td>
-					<td>Biology I</td>
-					<td>Sunita Rangarajan</td>
-					<td>Yes</td>
-					<td>Alt: CHEM1411 OR GEOL1403</td>
-					<td>Core: Science Credit</td>
-				</tr>
-				<tr>
-					<td>COSC1337</td>
-					<td>Programming Fundamentals II(Java)</td>
-					<td>Glen Grimes</td>
-					<td>Yes</td>
-					<td>Alt: There is a way to take the C++ path, ask an advisor for details.</td>
-					<td>Degree: CS1337</td>
-				</tr>
-				<tr>
-					<td>COSC2436</td>
-					<td>Programming Fundamentals III(Java)</td>
-					<td>Koshy Joseph</td>
-					<td>Yes</td>
-					<td>Alt: There is a way to take the C++ path, ask an advisor for details.</td>
-					<td>Degree: CS2336</td>
-				</tr>
-				<tr>
-					<td>ECON1301</td>
-					<td>Introduction to Economics</td>
-					<td>Laura Hicks</td>
-					<td>Yes</td>
-					<td>Alt: Get a UTD advisor to approve an alt</td>
-					<td>Degree: Free Elective</td>
-				</tr>
-				<tr>
-					<td>ENGL1301</td>
-					<td>Composition I</td>
-					<td>Charlene Green</td>
-					<td>Yes</td>
-					<td>Alt: Get a UTD advisor to approve an alt</td>
-					<td>Degree: Free Elective</td>
-				</tr>
-				<tr>
-					<td>ENGL1302</td>
-					<td>Composition II</td>
-					<td>Charlene Green</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Core: RHET1302</td>
-				</tr>
-				<tr>
-					<td>ENGL2332</td>
-					<td>World Literature I</td>
-					<td>Charlene Green</td>
-					<td>Yes</td>
-					<td>Alt: Get a UTD advisor to approve an alt</td>
-					<td>Degree: Free Elective</td>
-				</tr>
-				<tr>
-					<td>GOVT2305</td>
-					<td>Federal Government</td>
-					<td>Cristina Garcia</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Core: GOVT2305</td>
-				</tr>
-				<tr>
-					<td>GOVT2306</td>
-					<td>Texas Government</td>
-					<td>Curt Childress</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Core: GOVT2306</td>
-				</tr>
-				<tr>
-					<td>HIST1301</td>
-					<td>United States History I</td>
-					<td>Mark Popowski</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Core: HIST1301</td>
-				</tr>
-				<tr>
-					<td>HIST1302</td>
-					<td>United States History II</td>
-					<td>Mark Popowski</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Core: HIST1302</td>
-				</tr>
-				<tr>
-					<td>HUMA1301</td>
-					<td>Introduction to Humanities</td>
-					<td>Audra Heaslip</td>
-					<td>Yes</td>
-					<td>Alt: PHIL1301</td>
-					<td>Core: Humanities</td>
-				</tr>
-				<tr>
-					<td>MATH2305</td>
-					<td>Discrete Mathematics I</td>
-					<td>Bill Ardis</td>
-					<td>No</td>
-					<td>Alt: N/A</td>
-					<td>Degree: CS2305</td>
-				</tr>
-				<tr>
-					<td>MATH2318</td>
-					<td>Linear Algebra</td>
-					<td>Nick Geller</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Degree: MATH2418</td>
-				</tr>
-				<tr>
-					<td>MATH2413</td>
-					<td>Calculus I</td>
-					<td>Martha Chalhoub</td>
-					<td>No</td>
-					<td>Alt: N/A</td>
-					<td>Degree: MATH2413</td>
-				</tr>
-				<tr>
-					<td>MATH2414</td>
-					<td>Calculus II</td>
-					<td>David Rice</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Degree: MATH2414</td>
-				</tr>
-				<tr>
-					<td>PHYS2425</td>
-					<td>University Physics I</td>
-					<td>Brad Moore</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Degree: PHYS2325 & PHYS2125</td>
-				</tr>
-				<tr>
-					<td>PHYS2426</td>
-					<td>University Physics II</td>
-					<td>Brad Moore</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-					<td>Degree: PHYS2326 & PHYS2126</td>
-				</tr>
-				<tr>
-					<td>SOCI1301</td>
-					<td>Introduction to Sociology</td>
-					<td>Tracey McKenzie</td>
-					<td>Yes</td>
-					<td>Alt: Get a UTD advisor to approve an alt</td>
-					<td>Degree: Free Elective</td>
-				</tr>
-			</table>
-		</p>
-		
-		<p>Now if we were to add all these hours up we would actually see 66 credit hours versus the 64 I told you would transfer in. This is because of a slight discrepancy in free elective hours where we would either be one hour short or two hours over. So even though we only transfer 64 hours towards the degree we have to take the 66 total hours to get this to work.
-		</p>
-		
-		<p>A few things to note in this section. Collin's COSC2436 is one hour higher than UTD's, this is fine and there will be no problems with it during transfer. Also Collin's MATH2318 is one hour less than UTD's MATH2418, this is fine and they will actually shift over one credit hour from your science elective to fill in this discrepancy as Collin's science electives are one hour higher than UTD's. If you have any problem getting an advisor to approve this let me know and I can send you a copy of an email from UTD's advising department approving this hour shift.
-		</p>
-		
-		<p>There are also a few classes you may need to take at Collin that UTD considers remedial classes. This means that these classes will transfer but will not be put towards you degree. These classes include the following.
-		</p>
-		
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Class</th>
-					<th>Name</th> 
-					<th>Requirement Filled</th>
-				</tr>
-				<tr>
-					<td>COSC1315</td>
-					<td>Programming Fundamentals I</td>
-					<td>Pre-Req to COSC1337</td>
-				</tr>
-				<tr>
-					<td>MATH1314</td>
-					<td>College Algebra</td>
-					<td>Pre-Req to MATH2412</td>
-				</tr>
-				<tr>
-					<td>MATH2412</td>
-					<td>Pre-Calculus</td>
-					<td>Pre-Req to MATH2413</td>
-				</tr>
-			</table>
-		</p>
+		<div id="contents-section">	
+			<h2 id="contents">Contents</h2>
+			<div id="contents-list">
+				<div class="list-item" onclick="location.href='#wia'">Who I Am</div>
+				<div class="list-item" onclick="location.href='#ci'">Collin Impressions</div>
+				<div class="list-item" onclick="location.href='#gt'">General Tips</div>
+				<div class="list-item" onclick="location.href='#faq'">FAQ</div>
+				<div class="list-item" onclick="location.href='#ccp'">Collin Course Plan</div>
+				<div class="list-item" onclick="location.href='#utdcp'">UTD Course Plan</div>
+				<div class="list-item" onclick="location.href='#de'">Dual Enrollment</div>
+				<div class="list-item" onclick="location.href='#int'">Internship Advice</div>
+			</div>
+		</div>
 		
 		
-		<p>For this next section I will assume you have taken all the possible 64 credit hours at Collin, and are ready to transfer in to UTD. At this point you will have 60 credit hours you still need to take to achieve the 124 hours required for the major. The following table shows a degree path that will allow you to complete your degree in four semesters while being in accordance with pre-requisite and co-requisite guideline for these classes according to the <a href="https://engineering.utdallas.edu/files/4YEAR-CS-2018.pdf">UTD flowchart</a>. This is a very specific order, and if you intend to deviate from it I strongly suggest you map everything out and make sure you have a good plan. Some of the last two semester's classes can be switched between each other as needed, just verify on the <a href="https://engineering.utdallas.edu/files/4YEAR-CS-2018.pdf">UTD flowchart</a> to make sure you're switching appropriate ones.
-		</p>
+		<h2>What is This?</h2>
+			<p>This is a collection of notes and gathered information from my time as a transfer student going from Collin College to UTD. This guide was written because nothing like it exists at the current time, and had this existed when I transferred it would have made my transition much easier. This guide is specific to someone looking to get a bachelor's degree in computer science however, other engineering majors will share many of the same questions that you can find answers to in this guide.
+			</p>
 		
-		<h4>First Semester</h4>
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Class</th>
-					<th>Name</th> 
-					<th>Professor Taken</th> 
-					<th>Would I Recommend the Professor</th> 
-					<th>Notes/Alternatives</th>
-				</tr>
-				<tr>
-					<td>CS3305</td>
-					<td>Discrete Mathematics II</td>
-					<td>James Wilson</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS3340</td>
-					<td>Computer Architecture</td>
-					<td>Kang Zhang</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS3341</td>
-					<td>Probability and Statistics</td>
-					<td>Tristan Whalen</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS3345</td>
-					<td>Data Structures and Algorithmic Analysis</td>
-					<td>Kamran Khan</td>
-					<td>No</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS3377</td>
-					<td>C/C++ in a UNIX Environment</td>
-					<td>Bhanu Kapoor</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-			</table>
-			<p>Total Hours: 15</p>
-		</p>
+		<h2 id="wia">Who I Am</h2>
+			<p>I am, at the time of initially writing this, a computer science major at UTD in my junior year. I started my college journey in 2016 at Collin College. I am a non-traditional student, and spent 5 years after highschool as an aircraft mechanic before deciding to go to college.
+			</p>
 		
-		<h4>Second Semester</h4>
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Class</th>
-					<th>Name</th> 
-					<th>Professor Taken</th> 
-					<th>Would I Recommend the Professor</th> 
-					<th>Notes/Alternatives</th>
-				</tr>
-				<tr>
-					<td>CS4341</td>
-					<td>Digital Logic</td>
-					<td>Eric Becker</td>
-					<td>No</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS4141</td>
-					<td>Digital Logic Lab</td>
-					<td>Eric Becker</td>
-					<td>No</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>ECS3390</td>
-					<td>Professional Communication</td>
-					<td>Carie King</td>
-					<td>No</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS3354</td>
-					<td>Software Engineering</td>
-					<td>Ebru Cankaya</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS4337</td>
-					<td>Organization of Programming Languages</td>
-					<td>Chris Davis</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS4349</td>
-					<td>Advanced Algorithmic Analysis</td>
-					<td>???</td>
-					<td>???</td>
-					<td>Alt: N/A</td>
-				</tr>
-			</table>
-			<p>Total Hours: 16</p>
-		</p>
-		
-		<h4>Third Semester</h4>
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Class</th>
-					<th>Name</th> 
-					<th>Professor Taken</th> 
-					<th>Would I Recommend the Professor</th> 
-					<th>Notes/Alternatives</th>
-				</tr>
-				<tr>
-					<td>CS3162</td>
-					<td>Professional Responsibility</td>
-					<td>???</td>
-					<td>???</td>
-					<td>Alt: N/A.</td>
-				</tr>
-				<tr>
-					<td>ECS3361</td>
-					<td>Social Issues</td>
-					<td>???</td>
-					<td>???</td>
-					<td>!!!NOTE!!! This class is being phased out and may not exist by the time you need to take it. Please contact an advisor for more information. Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS4348</td>
-					<td>Operating Systems</td>
-					<td>Greg Ozbirn</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS4384</td>
-					<td>Automata Theory</td>
-					<td>James Wilson</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS4347</td>
-					<td>Database Structures</td>
-					<td>Michael Christiansen</td>
-					<td>Yes</td>
-					<td>Alt: N/A</td>
-				</tr>
-				<tr>
-					<td>CS43xx</td>
-					<td>CS Guided Elective</td>
-					<td>Crystal Maung</td>
-					<td>No</td>
-					<td>I took CS4391. Alt: N/A.</td>
-				</tr>
-			</table>
-			<p>Total Hours: 16</p>
-		</p>
-		
-		<h4>Fourth Semester</h4>
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Class</th>
-					<th>Name</th> 
-					<th>Professor Taken</th> 
-					<th>Would I Recommend the Professor</th> 
-					<th>Notes/Alternatives</th>
-				</tr>
-				<tr>
-					<td>CS43xx</td>
-					<td>CS Guided Elective</td>
-					<td>Elmer Salazar</td>
-					<td>No</td>
-					<td>I took CS4365. Alt: N/A.</td>
-				</tr>
-				<tr>
-					<td>CS43xx</td>
-					<td>CS Guided Elective</td>
-					<td>Erika Orrick</td>
-					<td>Yes</td>
-					<td>I took CS4352. Alt: N/A.</td>
-				</tr>
-				<tr>
-					<td>CS43xx</td>
-					<td>CS Guided Elective</td>
-					<td>Erika Orrick</td>
-					<td>Yes</td>
-					<td>I took CS4353. Note: This guided elective replaces CS1200 & ECS1100. Alt: N/A.</td>
-				</tr>
-				<tr>
-					<td>CS4485</td>
-					<td>CS Science Project</td>
-					<td>N/A</td>
-					<td>N/A</td>
-					<td>Alt: N/A</td>
-				</tr>
-			</table>
-			<p>Total Hours: 13</p>
-		</p>
-		
-		<p>So, coupling these 60 hours with the 64 transferred in from Collin you will now have the 124 hours necessary  for the bachelor's of science in computer science.
-		</p>
+		<h2>Disclaimer</h2>
+			<p>So first a disclaimer: I am going to give advice here that is to the best of my knowledge correct and well intended at the date of this guide being written (Spring 2019). However, I'm also just some random stranger on the internet so you should absolutely verify anything I say. "Trust but verify" should be your new life motto as you read not only this, but also talk to any advisors or read any other guides as well.
+			</p>
 			
-	<h2>I Want to Dual Enroll for a Semester to Save Money. What Do I Need To Know?</h2>
-		<p>Excellent question, this has both a short answer and a long answer depending on your situation.
-		</p>
+		<h2 id="ci">Am I Happy With the Education I Received at Collin?</h2> 
+			<p>Overall I have no major complaints with the education I received from Collin, and highly recommend them to anyone looking at an alternative to 4 years at a university. The teachers were excellent and the class size was small and responsive compared to UTD. I have not had any problems with the Math classes I am currently taking, I was able to jump right in to Discrete Math II and Probability and Stats with no surprises. 
+			</p>
+			
+			<p>My only minor complaint would be that I found Collin's Computer Science II(COSC2436) to be lacking some of the things that I was supposed to already know going into UTD's CS3345 Data Structures class. Most everyone who took this class at UTD seems to have already been introduced to BST's, Hash Tables, and have more proficiency with implementing other Data Structures quickly.
+			</p>
+			
+			<p>Overall, I'm happy with my decision to go the community college route as I have zero debt and was able to get some of the transfer scholarships. The only thing I was lacking was some Data Structures knowledge but I was able to pick that up over a few weekends with the help of YouTube and online articles. Other than that I was able to jump right in to my classes at UTD with no problems and no other missing foundational knowledge. 
+			</p>
+
+	  <h2 id="gt">General Tips</h2>
+			<p>1: If at all possible transfer in during a Fall semester at UTD. This seems to be the usual timeline for not only freshmen starting but transfer students coming in as well. If for nothing else you will be able to apply for more external transfer scholarships this way, for example the "Jack Kent Cooke"  <a href="https://www.jkcf.org/our-scholarships/undergraduate-transfer-scholarship/">transfer scholarship.</a> A lot of these external scholarships are based on you transferring in a Fall semester. <i>(Note: the only real benefit for transferring in during a Spring semester would be that it might make the timeline easier to get an internship. See my <a href="#int">Internship Advice</a> below.)</i>
+			</p>
+			
+			<p>2: If you're a slightly older non-traditional student, as I was, here is some financial aid advice. If that's not the case you can skip this point. Make sure you fill out the FAFSA religiously every year, even if you don't think you qualify for anything. The government loves throwing money at non-traditional students over the age of 25 in the form of Pell Grants. Also apply for any of the Collin College foundation scholarships as they are fairly easy to obtain.
+			</p>
+			
+			<p>3: FILL OUT THE COMET CONNECTION PAPER. This should be mandatory for any student that is transferring from Collin to UTD. It provides a number of benefits, but the primary benefit is it locks in your tuition. For example, I signed the comet connection in early 2017, because of this when I start classes at UTD in Spring 2019 I will be paying tuition rates from Fall of 2016. If we do the math on that, I will be saving about $2700 over four semesters at UTD. The best part about this whole thing is you only have to print out the form, take it to a Collin advisor and have them initial it, and mail it in. So for the cost of a stamp and a half-hour of your time you can save a significant amount of money. Here's the website where you can print the form. <a href="https://www.utdallas.edu/enroll/transfer/comet-connection/">Link</a>
+			</p>
+			
+			<p>4: Collin has guaranteed transfer scholarships based on your grades at Collin. By maintaining above a 3.75 GPA at Collin you'll automatically get $1500 per full-time semester at UTD. So by working hard now you can net about $6000 over the course of four semesters at UTD. <a href="https://www.utdallas.edu/enroll/transfer/scholarships/">Link</a>
+			</p>
+			
+			<p>5: Join Phi Theta Kappa(PTK). As long as you have been maintaining above a 3.5 GPA you will get emails from PTK asking you to join their organization. It costs about $120. This is another guaranteed scholarship at UTD. By maintaining above a 3.5 GPA you'll automatically get $500 per semester at UTD. So for a $120 investment you'll earn $2000 over four semesters at UTD. <a href="https://www.utdallas.edu/enroll/transfer/scholarships/">Link</a>
+			</p>
+			
+			<p>6: Trust but verify anything you Collin advisors tell you about the classes you need to take and what will/won't transfer to UTD. Collin advisors are a great resource and everyone of the ones I’ve dealt with has been great. But keep in mind they work for Collin not UTD. You need to touch base with UTD at least once a year, or even better once a semester while at Collin to make sure you only take classes that will transfer and are following the UTD requirements for your degree program. Here's the website where you can book an advising appointment or get the email of your advisor, just click on the Genbook button in the following link. <a href="https://engineering.utdallas.edu/academics/undergraduate-majors/undergrad-advising/">Link</a> Note: You CAN book an appointment without being a current UTD student.
+			</p>
+			
+			<p>7: UTD advisors don't know anything. This may be specific to my computer science major as that department is bursting at the seems, but confirm anything your UTD advisor tells you. Have email proof or record the audio of when you talk to them in person. I have in the past three years never seen the same advisor twice and have been told multiple different answers to question I have as a transfer student. Whether our not it would actually help you I don't know, but at least being able to pull out old emails when they tell something different next time has worked for me.
+			</p>
+			
+		<h2 id="faq">FAQ</h2>
 		
-		<p>There are two possible categories you fit into. 1: You are not receiving any financial aid and are paying for school out of pocket, and are not concerned with financial aid during this "dual enrollment" semester. 2: You are receiving financial aid now, and plan on receiving financial aid at UTD.
-		</p>
+			<p><b>Can I Back-Transfer ESC3390 to Collin and Get my Associates Degree?</b></p>
+			
+			<p class="faq-answer">Back when I was initially talking to Collin advisors years ago I asked them this question. The reason being is that the only class I would be missing from getting an Associates Degree through Collin would be a speech class. I was told that I could back-transfer the UTD equivalent needed for the CS degree which was ECS3390. However when I tried to do this after completing the class at UTD I was told it was not possible. I took it up the chain at Collin as far as I could go and it seemed like this was not something they would do. So in conclusion if you want the full Associates Degree from Collin, just take the extra speech class during your time there.</p>
+			
+			<p><b>Will My Collin GPA Transfer Over to UTD?</b></p>
+			
+			<p class="faq-answer">No, your GPA will essentially start over once you arrive at UTD. Any classes you took at Collin will be counted toward your degree (unless they were <a href="#remed">remedial</a> classes) but UTD considers them as Pass/Fail classes. Meaning that you receive credit for the classes but they will not affect your UTD GPA. It's still a good idea to keep your GPA as high as possible at Collin for the transfer scholarships, but don't become too attached to it as you'll be starting over at UTD. This should also serve as a warning for your UTD classes; as a bad grade during your first or second semester can tank your GPA as you wont have much of a buffer.</p>
+			
+			<p><b>What Do You Think the Hardest Class Was at UTD?</b></p>
+			
+			<p class="faq-answer">I have two answers for this question. The hardest class simply due to the workload was actually ESC3390 as it had so many assignments and activities to complete. The hardest class in terms of academic difficulty was CS3305 Discrete Math II as I have a hard time with proofs.</p>
+			
+			<p><b>What Do You Think the Easiest Class Was at UTD?</b></p>
+			
+			<p class="faq-answer">There were a few very easy classes I took: CS3354 Software Engineering, CS3162 Professional Responsibility, and both HCI classes I took for guided electives CS4352 Human Computer Interaction I and CS4353 Human Computer Interaction II.</p>
+			
+			<p><b>What Do You Think the Most Important Class Was at UTD?</b></p>
+			
+			<p class="faq-answer">CS3345 Data Structures and Algorithmic Analysis. This is the most important class you will take in computer science. It will come up in interviews and it will come up on the job, if you learn anything in your time at UTD make sure you know the stuff taught in this class inside and out.</p>
+			
+			<p><b>What Do You Think the Most Useful Class Was at UTD?</b></p>
+			
+			<p class="faq-answer">For me the most useful class was CS3377 the Linux class. It gave a great intro to using Linux and I continued to use Linux off and on during the rest of my time at UTD for both school, side projects, and internships.</p>
+			
+			<p><b>What Companies Come to the Internship/Career Fairs?</b></p>
+			
+			<p class="faq-answer">Here is a copy of an Email I received that contains a list of all of the companies that attended the Fall 2019 Intern Fair. This should give you an idea of the kind of companies that actively recruit out of UTD at Intern and Career Fairs. <a href="employerList.html" target="_blank">Employers List</a></p>
+			
+			<p><b>What Parking Pass Do you Recommend Getting?</b></p>
+			
+			<p class="faq-answer">After doing a little research I went with the cheapest option which was the Green parking pass. I would always park in Lot U and just walk in to wherever my classes were or occasionally take a Comet Cab (golf carts that shuttle people back and forth for free). This not only saved me money, and gave me a little exercise, but also allowed me to be able to guarantee I would always find a parking space. So many of the other students who got nicer parking passes would end up circling for 15-30 minutes looking for a spot, whereas I could always find a spot in Lot U. This helped me time my commute better so I new exactly when to leave for school. Use a little of the money you save to get a decent umbrella though as a spring shower can definitely dampen your money saving spirit.</p>
+			
+			<p><b>What Was Your First Semester Like?</b></p>
+			
+			<p class="faq-answer">Overall it wasn't too bad, I felt that all my classes were doable and the material was understandable. Out of all four semesters at UTD it was probably the second easiest in terms of difficulty. I'll go over a few things that stood out to me during my first semester at UTD:
+			<div class="faq-subanswer">
+				1: The class sizes are massive, so get used to being kind of a cog in the machine. You probably won't be able to connect with the professors as easily as you did during Collin.
+				</br></br>2: Someone from every class will make a chat on GroupMe or Discord during the first week of classes. Use these if you wish, but make sure to bail at the first sign of people cheating or giving out answers. I know multiple professors who monitor these chats looking for cheating.
+				</br></br>3: There were less busy work assignments than there were at Collin, however there is almost no opportunity for extra credit. Some classes curve, but don't count on it.
+				</br></br>4: Sit near the front in large lecture halls. That's where all the people who give a crap are. This can be important when forming groups for projects or trying to network with people.
+				</br></br>5: There are more group projects here than at Collin. I didn't like this and personally think they are pointless, but they happen none the less.
+			</div>
+			</p>
+			
+			<p><b>Were There Any Useful Tools/Sites That Helped You at UTD?</b></p>
+			
+			<div class="faq-answer">	
+				<p><i>Below are some links to tools or sites I used during my time here at UTD. I am not sponsored nor am I involved in any of the sites. They were simply things I found useful for some of the classes at UTD.</i></p>
+					
+				<a href="https://www.lucidchart.com/pages/" target="_blank"><b>LucidChart </b></a>
+
+				<p>This is an online drawing tool. I found it extremely useful for diagram drawings, circuit drawings, and state machine drawings. While it is not free, I found it worth the price as I used it in a number of classes including: CS4341, CS4141, CS3354, and CS4384.</p>
+
+				<a href="http://electronics-course.com/karnaugh-map" target="_blank"><b>Tool for K-Maps </b></a>
+
+				<p>This is a K-Map tool I used to check my work when I was doing homework and assignments for CS4341.</p>
+
+				<a href="https://rosettacode.org/wiki/Rosetta_Code" target="_blank"><b>Rosetta Code</b></a>
+
+				<p>This is a great site to see how different programming languages are used. They basically take a problem, for example a priority queue, and write the algorithm or solution in dozens of different languages. This was helpful when learning new languages throughout the various CS courses at UTD.</p>
+
+				<a href="https://learnxinyminutes.com/" target="_blank"><b>Learn X in Y minutes </b></a>
+
+				<p>Another site that has great documentation for a variety of different languages. It's a quick and easy reference guide with lots of examples.</p>
+
+				<a href="https://logic.ly/" target="_blank"><b>logic.ly </b></a>
+
+				<p>This is an online circuit simulation tool. I used the free, online version extensively during CS4341 to check my homework and prepare for labs.</p>
+
+				<a href="https://coursebook.utdallas.edu/myclasses" target="_blank"><b>CourseBook</b></a>
+
+				<p>This site allows you to search courses and syllabi available at UTD. This can be used when searching for classes to register for and deciding between professors based on their syllabi.</p>
+
+				<a href="https://utdgrades.com/" target="_blank"><b>UTD Grades</b></a>
+
+				<p>This site provides grades for different classes for each previous semester. It can allow you to verify that the professor you are thinking about registering for has a fair and balanced grade distribution.</p>
+			</div>
+			
+			<p><b>Which Programming Languages Did You Use at UTD?</b></p>
+			
+			<p class="faq-answer">I ended up using a wide variety of programming languages. Most of the ones I recall are: Java, C, C++, MIPS, BASH, PERL, Python, Verilog, Racket, SWI Prolog, SQL, Clingo,  JavaScript, and TypeScript. The most commonly used languages for me were Java and Python. A lot of the classes will offer you the ability to choose between Java, C, or C++ for your projects so you can use the language you are most familiar with. Most of the other languages listed here were used in just single classes rather than throughout the degree (like usings MIPS in CS3340). Some of these (like Clingo) are also specific to certain guided electives and you may not see them at all depending on your class selections.</p>
+			
+			<p><b>Which OS/Computer Did You Use at UTD?</b></p>
+			
+			<p class="faq-answer">I ended up using all three major OS types during my time at UTD: Windows, Mac, and Linux. As an estimate I probably used them in the following percentages: Windows: 70%, Mac: 20%, Linux: 10%. My primary Windows machine was a Dell XPS13, my Mac was a Mac Book Pro, and for Linux I would use either a VM on my Dell or a cloud machine from AWS. You will also get access to a university wide server running CentOS if you prefer to use that through an SSH connection. If you were only allowed one computer I would go with either a Windows with a Linux VM installed or a Mac.</p>
+			
+			<p><b>What Was Senior Design Like?</b></p>
+			
+			<div class="faq-answer">
+				<p>I wanted to include this section as, at the time of writing this, I could find no information about this class. I think this is because everyone who takes this class then graduates and moves on from the UTD SubReddit. What follows is a high level run-down of the class to give you an idea of what to expect.</p>
+				
+				<p>The first thing to consider for this course is that you need a team. 4-5 people you know and wouldn't mind working with. You should all have the same big-picture goal (i.e. all want to do machine learning, or all want to do web dev, etc...). There is not an option to join the class without a team in mind. The professor will just tell you to find others to work with, he won't assign all the loners to one team for example. This team formation should take place well ahead of you starting the class if you want the best chance of having an easier time.</p>
+				
+				<p>The first thing that will happen for the actual class is that the professor will start releasing a list of projects you can choose from. He will release this list a few weeks before the start of the semester and tell you that you and your team needs to have 5-8 options picked out in time for the first week of classes. These projects span a wide range of companies and technologies, so you should be able to find something that either interests you and your team or something that you think would be easy to accomplish.</p>
+				
+				<p>Once you've submitted your preferred projects list you will spend the next three Fridays attending class. They will talk about various professional topics. Around a week after you submitted your options list, they will get back to you with the project your team has been assigned. If there were multiple people that had your first pick they will assign it to who they think is most able to complete it and continue that logic down your options list. </p>
+				
+				<p>Once you have been assigned to a project you will have a meeting with your company who is sponsoring the project. You will be assigned a point of contact in the company as well as a UTD faculty member as a point of contact for an University questions/issues. The company will use this first meeting as a kick-off meeting and will go over the big picture of the project and whats expected.</p>
+				
+				<p>From here until the last week or two of the semester you will work on the project. You are each expected to spend 8-12 hours a week working on the project, although I found myself spending closer to 15-20 hours a week when I did mine. You will meet at least once weekly with the company and will also need to submit weekly reports to UTD to track your time (We just used a simple excel spread sheet with how many hours we spent on various tasks each week, nothing fancy).</p>
+				
+				<p>Half way through the semester you will need to submit a rather lengthy report that counts as the mid-term. The professor supplies a pretty detailed template, so it's really just making sure everyone contributes to the report. This seemed like more of a completion grade and we didn't spend an enormous amount of time making sure it was the most professional looking document and we still got an A for the mid-term grade.</p>
+				
+				<p>You will stop work on the project about a week or so before the semester ends. You will then need to write another report similar to the mid-term report that builds off of the mid-term report (like a part two of the mid-term). You will also need to make a poster using PowerPoint (again a template is provided). You also need to make a single slide for senior design day and practice with your team to be able to do a 10 minute long presentation about your project. The professor will make everyone attend a practice session for the presentation and give you any feedback to fix for senior design day. For senior design day you simply make your presentation and listen to others make theirs.</p>
+				
+				<p>Overall, it was not a hard course. Just time consuming and frustrating at times due to some UTD requirements not being made clear. Make sure you have a good team and it won't be too big of a deal.</p>
+			</div>
+			
+		<h2 id="ccp">I Want to Take as Many Classes as Possible at Collin to Save Money. What Do I Need To Know?</h2>
 		
-		<p>Case 1 answer to your question: Absolutely, there are no downfalls that I am aware of to doing this, and while I did not do this personally I know of at least half a dozen people that did with no problems. Sometimes there are minor inconveniences like having to pay for parking at UTD even though your only attending for one class, spring break schedules that are different, or having to use two different online portals for schoolwork(i.e. Canvas and Blackboard). But like I said these are fairly minor inconveniences at best.
-		</p>
+			<p>Excellent choice, this will save you the most amount of money. You will also not be getting any less of an education. Everyone has to take the same core classes and by taking them at Collin you get one-on-one interaction with the professor, a class size limited to about 30 students, and a significantly cheaper cost.
+			</p>
+			
+			<p>All in all you can take 64 fully transferable credit hours at Collin, this will leave you just 60 junior and senior level classes to complete at UTD. The following table contains the list of classes I took at Collin that transferred in with no problem as well as some alternatives.
+			</p>
+			
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Class</th>
+						<th>Name</th> 
+						<th>Professor Taken</th> 
+						<th>Would I Recommend the Professor</th> 
+						<th>Notes/Alternatives</th>
+						<th>Requirement Filled</th>
+					</tr>
+					<tr>
+						<td>ARTS1301</td>
+						<td>Art Appreciation</td>
+						<td>Chris Tinnen</td>
+						<td>Yes</td>
+						<td>Alt: MUSI1306</td>
+						<td>Core: Arts</td>
+					</tr>
+					<tr>
+						<td>BIOL1406</td>
+						<td>Biology I</td>
+						<td>Sunita Rangarajan</td>
+						<td>Yes</td>
+						<td>Alt: CHEM1411 OR GEOL1403</td>
+						<td>Core: Science Credit</td>
+					</tr>
+					<tr>
+						<td>COSC1337</td>
+						<td>Programming Fundamentals II(Java)</td>
+						<td>Glen Grimes</td>
+						<td>Yes</td>
+						<td>Alt: There is a way to take the C++ path, ask an advisor for details.</td>
+						<td>Degree: CS1337</td>
+					</tr>
+					<tr>
+						<td>COSC2436</td>
+						<td>Programming Fundamentals III(Java)</td>
+						<td>Koshy Joseph</td>
+						<td>Yes</td>
+						<td>Alt: There is a way to take the C++ path, ask an advisor for details.</td>
+						<td>Degree: CS2336</td>
+					</tr>
+					<tr>
+						<td>ECON1301</td>
+						<td>Introduction to Economics</td>
+						<td>Laura Hicks</td>
+						<td>Yes</td>
+						<td>Alt: Get a UTD advisor to approve an alt</td>
+						<td>Degree: Free Elective</td>
+					</tr>
+					<tr>
+						<td>ENGL1301</td>
+						<td>Composition I</td>
+						<td>Charlene Green</td>
+						<td>Yes</td>
+						<td>Alt: Get a UTD advisor to approve an alt</td>
+						<td>Degree: Free Elective</td>
+					</tr>
+					<tr>
+						<td>ENGL1302</td>
+						<td>Composition II</td>
+						<td>Charlene Green</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Core: RHET1302</td>
+					</tr>
+					<tr>
+						<td>ENGL2332</td>
+						<td>World Literature I</td>
+						<td>Charlene Green</td>
+						<td>Yes</td>
+						<td>Alt: Get a UTD advisor to approve an alt</td>
+						<td>Degree: Free Elective</td>
+					</tr>
+					<tr>
+						<td>GOVT2305</td>
+						<td>Federal Government</td>
+						<td>Cristina Garcia</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Core: GOVT2305</td>
+					</tr>
+					<tr>
+						<td>GOVT2306</td>
+						<td>Texas Government</td>
+						<td>Curt Childress</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Core: GOVT2306</td>
+					</tr>
+					<tr>
+						<td>HIST1301</td>
+						<td>United States History I</td>
+						<td>Mark Popowski</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Core: HIST1301</td>
+					</tr>
+					<tr>
+						<td>HIST1302</td>
+						<td>United States History II</td>
+						<td>Mark Popowski</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Core: HIST1302</td>
+					</tr>
+					<tr>
+						<td>HUMA1301</td>
+						<td>Introduction to Humanities</td>
+						<td>Audra Heaslip</td>
+						<td>Yes</td>
+						<td>Alt: PHIL1301</td>
+						<td>Core: Humanities</td>
+					</tr>
+					<tr>
+						<td>MATH2305</td>
+						<td>Discrete Mathematics I</td>
+						<td>Bill Ardis</td>
+						<td>No</td>
+						<td>Alt: N/A</td>
+						<td>Degree: CS2305</td>
+					</tr>
+					<tr>
+						<td>MATH2318</td>
+						<td>Linear Algebra</td>
+						<td>Nick Geller</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Degree: MATH2418</td>
+					</tr>
+					<tr>
+						<td>MATH2413</td>
+						<td>Calculus I</td>
+						<td>Martha Chalhoub</td>
+						<td>No</td>
+						<td>Alt: N/A</td>
+						<td>Degree: MATH2413</td>
+					</tr>
+					<tr>
+						<td>MATH2414</td>
+						<td>Calculus II</td>
+						<td>David Rice</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Degree: MATH2414</td>
+					</tr>
+					<tr>
+						<td>PHYS2425</td>
+						<td>University Physics I</td>
+						<td>Brad Moore</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Degree: PHYS2325 & PHYS2125</td>
+					</tr>
+					<tr>
+						<td>PHYS2426</td>
+						<td>University Physics II</td>
+						<td>Brad Moore</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Degree: PHYS2326 & PHYS2126</td>
+					</tr>
+					<tr>
+						<td>SOCI1301</td>
+						<td>Introduction to Sociology</td>
+						<td>Tracey McKenzie</td>
+						<td>Yes</td>
+						<td>Alt: Get a UTD advisor to approve an alt</td>
+						<td>Degree: Free Elective</td>
+					</tr>
+				</table>
+			</p>
+			
+			<p>Now if we were to add all these hours up we would actually see 66 credit hours versus the 64 I told you would transfer in. This is because of a slight discrepancy in free elective hours where we would either be one hour short or two hours over. So even though we only transfer 64 hours towards the degree we have to take the 66 total hours to get this to work.
+			</p>
+			
+			<p>A few things to note in this section. Collin's COSC2436 is one hour higher than UTD's, this is fine and there will be no problems with it during transfer. Also Collin's MATH2318 is one hour less than UTD's MATH2418, this is fine and they will actually shift over one credit hour from your science elective to fill in this discrepancy as Collin's science electives are one hour higher than UTD's. If you have any problem getting an advisor to approve this let me know and I can send you a copy of an email from UTD's advising department approving this hour shift.
+			</p>
+			
+			<p id="remed">There are also a few classes you may need to take at Collin that UTD considers remedial classes (I needed to take all of these). This means that these classes will transfer but will not be put towards you degree. These classes include the following.
+			</p>
+			
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Class</th>
+						<th>Name</th> 
+						<th>Requirement Filled</th>
+					</tr>
+					<tr>
+						<td>COSC1315</td>
+						<td>Programming Fundamentals I</td>
+						<td>Pre-Req to COSC1337</td>
+					</tr>
+					<tr>
+						<td>MATH1314</td>
+						<td>College Algebra</td>
+						<td>Pre-Req to MATH2412</td>
+					</tr>
+					<tr>
+						<td>MATH2412</td>
+						<td>Pre-Calculus</td>
+						<td>Pre-Req to MATH2413</td>
+					</tr>
+				</table>
+			</p>
+			
+			<h2 id="utdcp">UTD Course Plan</h2>
+			
+			<p>For this next section I will assume you have taken all the possible 64 credit hours at Collin, and are ready to transfer in to UTD. At this point you will have 60 credit hours you still need to take to achieve the 124 hours required for the major. The following table shows a degree path that will allow you to complete your degree in four semesters while being in accordance with pre-requisite and co-requisite guideline for these classes according to the <a href="https://engineering.utdallas.edu/files/4YEAR-CS-2018.pdf">UTD flowchart</a>. This is a very specific order, and if you intend to deviate from it I strongly suggest you map everything out and make sure you have a good plan. Some of the last two semester's classes can be switched between each other as needed, just verify on the <a href="https://engineering.utdallas.edu/files/4YEAR-CS-2018.pdf">UTD flowchart</a> to make sure you're switching appropriate ones.
+			</p>
+			
+			<h4>First Semester</h4>
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Class</th>
+						<th>Name</th> 
+						<th>Professor Taken</th> 
+						<th>Would I Recommend the Professor</th> 
+						<th>Notes/Alternatives</th>
+						<th>Group Work Required</th>
+					</tr>
+					<tr>
+						<td>CS3305</td>
+						<td>Discrete Mathematics II</td>
+						<td>James Wilson</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS3340</td>
+						<td>Computer Architecture</td>
+						<td>Kang Zhang</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS3341</td>
+						<td>Probability and Statistics</td>
+						<td>Tristan Whalen</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS3345</td>
+						<td>Data Structures and Algorithmic Analysis</td>
+						<td>Kamran Khan</td>
+						<td>No</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS3377</td>
+						<td>C/C++ in a UNIX Environment</td>
+						<td>Bhanu Kapoor</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+				</table>
+				<p>Total Hours: 15</p>
+			</p>
+			
+			<h4>Second Semester</h4>
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Class</th>
+						<th>Name</th> 
+						<th>Professor Taken</th> 
+						<th>Would I Recommend the Professor</th> 
+						<th>Notes/Alternatives</th>
+						<th>Group Work Required</th>
+					</tr>
+					<tr>
+						<td>CS4341</td>
+						<td>Digital Logic</td>
+						<td>Eric Becker</td>
+						<td>No</td>
+						<td>Alt: N/A</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>CS4141</td>
+						<td>Digital Logic Lab</td>
+						<td>Eric Becker</td>
+						<td>No</td>
+						<td>Alt: N/A</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>ECS3390</td>
+						<td>Professional Communication</td>
+						<td>Carie King</td>
+						<td>No</td>
+						<td>Alt: N/A</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>CS3354</td>
+						<td>Software Engineering</td>
+						<td>Ebru Cankaya</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>CS4337</td>
+						<td>Organization of Programming Languages</td>
+						<td>Chris Davis</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS4349</td>
+						<td>Advanced Algorithmic Analysis</td>
+						<td>Ebru Cankaya</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+				</table>
+				<p>Total Hours: 16</p>
+			</p>
+			
+			<h4>Third Semester</h4>
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Class</th>
+						<th>Name</th> 
+						<th>Professor Taken</th> 
+						<th>Would I Recommend the Professor</th> 
+						<th>Notes/Alternatives</th>
+						<th>Group Work Required</th>
+					</tr>
+					<tr>
+						<td>CS3162</td>
+						<td>Professional Responsibility</td>
+						<td>Wei-Pang Chin</td>
+						<td>No</td>
+						<td>Alt: N/A.</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>ECS3361</td>
+						<td>Social Issues</td>
+						<td>???</td>
+						<td>???</td>
+						<td>!!!NOTE!!! This class is being phased out and may not exist by the time you need to take it. Please contact an advisor for more information. I was forced to take an additional guided elective to make up for this class and took CS4395 Human Language Technologies with Karen Mazidi who I would recommend. Alt: N/A</td>
+						<td>???</td>
+					</tr>
+					<tr>
+						<td>CS4348</td>
+						<td>Operating Systems</td>
+						<td>Greg Ozbirn</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS4384</td>
+						<td>Automata Theory</td>
+						<td>James Wilson</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS4347</td>
+						<td>Database Structures</td>
+						<td>Michael Christiansen</td>
+						<td>Yes</td>
+						<td>Alt: N/A</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>CS43xx</td>
+						<td>CS Guided Elective</td>
+						<td>Crystal Maung</td>
+						<td>No</td>
+						<td>I took CS4391. Alt: N/A.</td>
+						<td>No</td>
+					</tr>
+				</table>
+				<p>Total Hours: 16</p>
+			</p>
+			
+			<h4>Fourth Semester</h4>
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Class</th>
+						<th>Name</th> 
+						<th>Professor Taken</th> 
+						<th>Would I Recommend the Professor</th> 
+						<th>Notes/Alternatives</th>
+						<th>Group Work Required</th>
+					</tr>
+					<tr>
+						<td>CS43xx</td>
+						<td>CS Guided Elective</td>
+						<td>Elmer Salazar</td>
+						<td>No</td>
+						<td>I took CS4365. Alt: N/A.</td>
+						<td>No</td>
+					</tr>
+					<tr>
+						<td>CS43xx</td>
+						<td>CS Guided Elective</td>
+						<td>Erika Orrick</td>
+						<td>Yes</td>
+						<td>I took CS4352. Alt: N/A.</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>CS43xx</td>
+						<td>CS Guided Elective</td>
+						<td>Erika Orrick</td>
+						<td>Yes</td>
+						<td>I took CS4353. Note: This guided elective replaces CS1200 & ECS1100. Alt: N/A.</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>CS4485</td>
+						<td>CS Science Project</td>
+						<td>N/A</td>
+						<td>N/A</td>
+						<td>Alt: N/A</td>
+						<td>Yes</td>
+					</tr>
+				</table>
+				<p>Total Hours: 13</p>
+			</p>
+			
+			<p>So, coupling these 60 hours with the 64 transferred in from Collin you will now have the 124 hours necessary  for the bachelor's of science in computer science.
+			</p>
+				
+		<h2 id="de">I Want to Dual Enroll for a Semester to Save Money. What Do I Need To Know?</h2>
+			<p>Excellent question, this has both a short answer and a long answer depending on your situation.
+			</p>
+			
+			<p>There are two possible categories you fit into. 1: You are not receiving any financial aid and are paying for school out of pocket, and are not concerned with financial aid during this "dual enrollment" semester. 2: You are receiving financial aid now, and plan on receiving financial aid at UTD.
+			</p>
+			
+			<p>Case 1 answer to your question: Absolutely, there are no downfalls that I am aware of to doing this, and while I did not do this personally I know of at least half a dozen people that did with no problems. Sometimes there are minor inconveniences like having to pay for parking at UTD even though you're only attending for one class, spring break schedules that are different, or having to use two different online portals for schoolwork(i.e. Canvas and Blackboard). But like I said these are fairly minor inconveniences at best.
+			</p>
+			
+			<p>Case 2 answer to your question: This is where it gets tricky. Technically you would be attending two schools and be a "part-time" student at both.("part-time" usually meaning taking less than 12 credit hours, "full-time" usually meaning taking 12 or more credit hours) This means that financial aid is kind of a mess. 
+			</p>
+			
+			<p>For example: lets say you take 3 hours at UTD and 9 hours at Collin. Now you and I both know you are taking 12 credit hours and should be considered a "full-time" student and get "full-time" student" financial aid. However, each school simply views you as a "part-time" student and they do not consider the bigger picture. This can mean losing out on "full-time" financial aid and only qualifying for "part-time" financial aid. This means in some circumstances you can actually lose money by attending two schools "part-time". 
+			</p>
+			
+			<p>For example: Lets say that Collin and Government aid pays you $2000 per semester as a "full-time" student, but will only pay you $500 as a "part-time" student. Let's also say that UTD and Government will pay you $4000 per semester as a "full-time" student, but will only pay you $750 as a "part-time" student. Now lets say cost of Collin is $150 per credit hour and cost of UTD is $500 per credit hour. We now have three cases to look at, lets assume you take 14 credit hours in the following example:
+			</p>
+			
+			<p>
+				<table style="width:50%">
+					<tr>
+						<th>Full time at Collin</th>
+						<th>Half Collin-Half UTD</th> 
+						<th>Full time UTD</th>
+					</tr>
+					<tr>
+						<td>Total Cost: $2100</td>
+						<td>Total Cost: $4550</td>
+						<td>Total Cost: $7000</td>
+					</tr>
+					<tr>
+						<td>Total Aid: $2000</td>
+						<td>Total Aid: $1250</td>
+						<td>Total Aid: $4000</td>
+					</tr>
+					<tr>
+						<td>Net Cost: $100</td>
+						<td>Net Cost: $3300</td>
+						<td>Net Cost: $3000</td>
+					</tr>
+				</table>
+			</p>
+			
+			<p>So in this example, even though "dual-enrollment" is cheaper than "full-time" at UTD, the amount of scholarship money you miss out on because you're a "part-time" student outweighs the original cost savings and you end with a net loss.
+			</p>
+			
+			<p>Now this is a fake example, but when I ran the numbers a few years ago when I was considering "dual-enrollment" at 2 colleges, the results were usually pretty similar to the above many times even worse. 
+			</p>
+			
+			<p>So having said all that, is there anyway around being labelled as "part-time" when you're taking a "full-time" amount of hours? Kind of...You can look into something called a "Consortium Agreement" this essentially allows both schools to recognize you're a full-time student. I did not know about this back when I was considering "dual-enrollment" so you will need to do some Googling as well as have some in-depth conversations with the financial aid departments at UTD and Collin to make sure this would work. Here are some articles that describe this kind of Consortium Agreement. <a href="https://joshuahernandezonline.wordpress.com/2010/04/08/attending-two-colleges-simultaneously-while-on-financial-aid/">Link1</a> <a href="https://www.pcc.edu/enroll/paying-for-college/financial-aid/review-award/co-enrollment.html">Link2</a>
+			</p>
+			
+		<h2 id="int"><i>Internship Advice: </i>What Can I Do to Prepare for a Getting a Job After Graduation?</h2>
+
+			<p>Your goal in life should be trying to get an internship during the Summer of your Senior year. Lots of internships will give you a return offer, and even if they don't a lot of companies will toss your resume if you have no real world experience when you start looking for jobs after graduation.</p>
+
+			<p>For the sake of the following example, let's assume the date is Fall of 2020 and you are in your last semester at Collin before transferring to UTD in Spring of 2021. Let's also assume you will have taken every possible class at Collin and are trying to graduate from UTD in four semesters, in Winter of 2022, as my guide outlines above. That means you are looking at trying to get an internship in Summer 2022.</p>
+			
+			<p>That sounds far away, but trust me time flies. Here is my advice on how to give yourself the best shot at getting an internship.</p>
+			
+			<p><i>(Note: this is all advice on how to set yourself up for a full-stack developer position. If you are shooting for something else then disregard the following)</i></p>
+			
+			<p>You will need to put forth some effort and try and work as hard as you can from now until you have an internship. Make sure to realize that an internship and eventually a possible job offer is more important than any class you take, so if you have to sacrifice anything it is better to let your GPA slide a little (try to stay above 3.5 as that is the cut off for many companies) than miss out on an internship because you weren't prepared.</p>
+			
+			<p>Starting now until Mid-Summer of 2021 try and build at least one side project. It doesn't have to be huge, but build it, put it on GitHub, host it somewhere (Heroku or AWS), and write a nice GitHub README for it. Things recruiters like to see are any of the popular JavaScript frameworks (Angular/React/Vue) or at the very least use some kind of templating engine like Handlebars.js and Bootstrap for the styling, and something popular for the backend like Node.js, DotNet Core, or Java Spring (I used Node.js because it was easier to get setup). If you can, try and make it somewhat unique, a recruiter doesn't want to see another to-do app. This will give you something to talk about with recruiters and interviewers.</p>
+			
+			<p>In the last month or so of Summer 2021 start working on <a href="https://leetcode.com/">Leetcode</a> challenges. Every job I ever applied to has some kind of coding challenge like these. This is where your knowledge of CS3345 comes into play. You might even consider taking a Udemy course about Leetcode challenges, that's what I did. Make sure you can solve the easy ones, and a few of the common medium ones. Don't worry about the hards. Use either Javascript or Python for these challenges as they have a lot of built in functionality and are fast to write.</p>
+			
+			<p>Internship recruiting starts earlier than you might think, so start applying in late August/early September of 2021 for an internship in summer of 2022. During this time try to keep up with doing some Leetcode, and practice your interviewing skills. Also make sure to have the UTD career center look over your resume before applying as they can give you a lot of help with formatting. Most importantly, go to both the Fall 2021 internship fair and career fair. Research the companies before hand and then talk to as many as you can during the fairs. I got two internship offers this way. Apply to all sorts of companies, big and small. A lot of the big companies will pay for room and board during an internship, but you may be more likely to get a return offer from a smaller local company IMO.</p>
+			
+			<p>Once you've signed the internship offer you can rest easy for the remainder of 2021 and the spring semester of 2022 and just focus on your classes and any fun side projects you want to work on. </p>
+
+			<p>That's a lot of work, but if you play your cards right and work hard you can end up with a job offer after your internship. Once you get your first job in this industry, it pretty much seems like you are set for the rest of your career.</p>
+			
+			<p><i>(Note: this assumes you are transferring in during a Spring semester, but if you transfer in during a Fall semester the process will be similar and you may even be able to get an internship for the Summer of your Junior year if you just shift the above advice back a little bit in the timeline.)</i></p>
+			
+			<footer id="footer">
+				<p><i>Last Edited: 12/20/2020</i></p>
+			</footer>
 		
-		<p>Case 2 answer to your question: This is where it gets tricky. Technically you would be attending two schools and be a "part-time" student at both.("part-time" usually meaning taking less than 12 credit hours, "full-time" usually meaning taking 12 or more credit hours) This means that financial aid is kind of a mess. 
-		</p>
-		
-		<p>For example: lets say you take 3 hours at UTD and 9 hours at Collin. Now you and I both know you are taking 12 credit hours and should be considered a "full-time" student and get "full-time" student" financial aid. However, each school simply views you as a "part-time" student and they do not consider the bigger picture. This can mean losing out on "full-time" financial aid and only qualifying for "part-time" financial aid. This means in some circumstances you can actually lose money by attending two schools "part-time". 
-		</p>
-		
-		<p>For example: Lets say that Collin and Government aid pays you $2000 per semester as a "full-time" student, but will only pay you $500 as a "part-time" student. Let's also say that UTD and Government will pay you $4000 per semester as a "full-time" student, but will only pay you $750 as a "part-time" student. Now lets say cost of Collin is $150 per credit hour and cost of UTD is $500 per credit hour. We now have three cases to look at, lets assume you take 14 credit hours in the following example:
-		</p>
-		
-		<p>
-			<table style="width:50%">
-				<tr>
-					<th>Full time at Collin</th>
-					<th>Half Collin-Half UTD</th> 
-					<th>Full time UTD</th>
-				</tr>
-				<tr>
-					<td>Total Cost: $2100</td>
-					<td>Total Cost: $4550</td>
-					<td>Total Cost: $7000</td>
-				</tr>
-				<tr>
-					<td>Total Aid: $2000</td>
-					<td>Total Aid: $1250</td>
-					<td>Total Aid: $4000</td>
-				</tr>
-				<tr>
-					<td>Net Cost: $100</td>
-					<td>Net Cost: $3300</td>
-					<td>Net Cost: $3000</td>
-				</tr>
-			</table>
-		</p>
-		
-		<p>So in this example, even though "dual-enrollment" is cheaper than "full-time" at UTD, the amount of scholarship money you miss out on because you're a "part-time" student outweighs the original cost savings and you end with a net loss.
-		</p>
-		
-		<p>Now this is a fake example, but when I ran the numbers a few years ago when I was considering "dual-enrollment" at 2 colleges, the results were usually pretty similar to the above many times even worse. 
-		</p>
-		
-		<p>So having said all that, is there anyway around being labelled as "part-time" when you're taking a "full-time" amount of hours? Kind of...You can look into something called a "Consortium Agreement" this essentially allows both schools to recognize you're a full-time student. I did not know about this back when I was considering "dual-enrollment" so you will need to do some Googling as well as have some in-depth conversations with the financial aid departments at UTD and Collin to make sure this would work. Here are some articles that describe this kind of Consortium Agreement. <a href="https://joshuahernandezonline.wordpress.com/2010/04/08/attending-two-colleges-simultaneously-while-on-financial-aid/">Link1</a> <a href="https://www.pcc.edu/enroll/paying-for-college/financial-aid/review-award/co-enrollment.html">Link2</a>
-		</p>
-		
-       
+	</div>
 </body>
 
 </html>
